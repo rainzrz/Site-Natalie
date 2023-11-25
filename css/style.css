@@ -1,11 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/tt-norms-pro');
 
-#meuCarrossel img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px; /* Ajuste o valor conforme necessário */
-  }
-  
 *{
     margin: 0;
     padding: 0;
@@ -315,6 +309,7 @@ transition: ease 0.5s;
     box-sizing: inherit;
 }
 
+
 .redes-sociais ul li a{
     position: relative;
     display: block;
@@ -603,11 +598,4 @@ footer{
         margin-bottom: 10px;
     }
 
-    /*********************** CONTATO *****************/
-    .contato{
-        margin-top: 10px;
-        padding: 10px;
-        height: 50%;
-        margin-top: -100px;
-    }
 }
