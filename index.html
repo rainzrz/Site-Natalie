@@ -5,6 +5,12 @@
 
     <title>Azadi Social</title>
 
+  <!-- Adicione essas linhas no head do seu HTML -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/scroll.css">
     <link rel="shortcut icon" href="avatarraian01.ico" type="images/avatarraian01.ico" sizes="32x3">
@@ -119,88 +125,58 @@
       <hr>
     </section>
 
-    <!-- ********** PROJETOS ********** -->
-    <section class="projetos" id="projetos">
-      <article class="heading">
-        <h2>Projetos</h2>
-      </article>
+   <!-- ********** PROJETOS ********** -->
+<section class="projetos" id="projetos">
+  <article class="heading">
+    <h2>Projetos</h2>
+  </article>
 
-      <article class="content">
-        <article class="casos">
+  <article class="content">
+    <div id="meuCarrossel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
           <a href="https://projeto1.raianportfolio.tech/" target="_blank">
             <img src="images/projeto1.png" alt="">
           </a>
-          <article>
-            <article class="overlay">
-              <h3>Projeto</h3>
-              <span>HTML <span class="barra"> / </span>CSS</span>
-            </article>
-          </article>
-        </article>
-
-        <article class="casos">
+        </div>
+        <div class="carousel-item">
           <a href="https://projeto2.raianportfolio.tech/" target="_blank">
             <img src="images/projeto2.png" alt="">
           </a>
-          <article>
-            <article class="overlay">
-              <h3>Projeto</h3>
-              <span>HTML<span class="barra"> / </span>CSS</span>
-            </article>
-          </article>
-        </article>
-
-        <article class="casos">
+        </div>
+        <div class="carousel-item">
           <a href="https://projeto3.raianportfolio.tech/" target="_blank">
             <img src="images/projeto3.png" alt="">
           </a>
-          <article>
-            <article class="overlay">
-              <h3>Projeto</h3>
-              <span>HTML <span class="barra"> / </span>CSS</span>
-            </article>
-          </article>
-        </article>
-
-        <article class="casos">
+        </div>
+        <div class="carousel-item">
           <a href="https://projeto4.raianportfolio.tech/" target="_blank">
             <img src="images/projeto4.png" alt="">
           </a>
-          <article>
-            <article class="overlay">
-              <h3>Projeto</h3>
-              <span>HTML <span class="barra"> / </span>CSS</span>
-            </article>
-          </article>
-        </article>
-        
-        <article class="casos">
+        </div>
+        <div class="carousel-item">
           <a href="https://projeto5.raianportfolio.tech/" target="_blank">
             <img src="images/projeto5.png" alt="">
           </a>
-          <article>
-            <article class="overlay">
-              <h3>Projeto</h3>
-              <span>HTML <span class="barra"> / </span>CSS
-            </span></article>
-          </article>
-        </article>
-
-        <article class="casos">
+        </div>
+        <div class="carousel-item">
           <a href="https://projeto6.raianportfolio.tech/" target="_blank">
             <img src="images/projeto6.png" alt="">
           </a>
-          <article>
-            <article class="overlay">
-              <h3>Projeto</h3>
-              <span>HTML <span class="barra"> / </span>CSS
-               
-            </span></article>
-          </article>
-        </article>
+        </div>
+      </div>
 
-      </article>
-    </section>
+      <a class="carousel-control-prev" href="#meuCarrossel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#meuCarrossel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </article>
+</section>
 
     <!-- ********** CONTATO ********** -->
 
