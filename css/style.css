@@ -3,6 +3,7 @@
 #meuCarrossel img {
     max-width: 100%;
     height: auto;
+    border-radius: 15px; /* Ajuste o valor conforme necessário */
   }
   
 *{
