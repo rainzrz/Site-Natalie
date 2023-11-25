@@ -3,9 +3,10 @@
 /* Adicione esta regra CSS no seu arquivo style.css */
 
 #carouselExample {
-    height: 20%;
-    border-radius: 20px; /* Adapte o raio da borda conforme necessário */
-    overflow: hidden; /* Garante que a borda não ultrapasse os limites do carrossel */
+    height: 50%;
+    width: 80%;
+    border-radius: 50px; 
+    overflow: hidden; 
   }
   
 
