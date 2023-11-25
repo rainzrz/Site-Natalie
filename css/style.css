@@ -1,5 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/tt-norms-pro');
 
+#meuCarrossel img {
+    max-width: 100%;
+    height: auto;
+  }
+  
 *{
     margin: 0;
     padding: 0;
