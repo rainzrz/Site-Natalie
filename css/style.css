@@ -1,5 +1,14 @@
 @import url('https://fonts.cdnfonts.com/css/tt-norms-pro');
 
+/* Adicione esta regra CSS no seu arquivo style.css */
+
+#carouselExample {
+    height: 20%;
+    border-radius: 20px; /* Adapte o raio da borda conforme necessário */
+    overflow: hidden; /* Garante que a borda não ultrapasse os limites do carrossel */
+  }
+  
+
 *{
     margin: 0;
     padding: 0;
@@ -598,4 +607,11 @@ footer{
         margin-bottom: 10px;
     }
 
+    /*********************** CONTATO *****************/
+    .contato{
+        margin-top: 10px;
+        padding: 10px;
+        height: 50%;
+        margin-top: -100px;
+    }
 }

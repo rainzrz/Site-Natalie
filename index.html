@@ -4,22 +4,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Raian Rodrigues</title>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/scroll.css">
     <link rel="shortcut icon" href="avatarraian01.ico" type="images/avatarraian01.ico" sizes="32x3">
     <link rel="stylesheet" href="css/all.css">
-    
   </head>
   <body class="show">
     <header>
       <nav>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
 
         <ul class="menu">
           <li><a href="#home" onclick="toggleMenu()">Home</a></li>
           <li><a href="#sobre-mim" onclick="toggleMenu()">Sobre mim</a></li>
+          <li><a href="#tecnologias" onclick="toggleMenu()">Tecnologias</a></li>
           <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
           <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
         </ul>
@@ -115,35 +118,37 @@
       <hr>
     </section>
 
-<!-- ********** projetos ********** -->
-<section class="projetos" id="projetos">
+    <!-- ********** PROJETOS ********** -->
+    <section class="projetos" id="projetos">
+      <div class="heading">
+        <h2>Projetos</h2>
+      </div>
   <div id="carouselExample" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-
       <div class="carousel-item active">
         <img src="images/projeto1.png" class="d-block w-100" alt="Slide 1">
       </div>
-
       <div class="carousel-item">
-        <img src="images/projeto2.jpg" class="d-block w-100" alt="Slide 2">
+        <img src="images/projeto2.png" class="d-block w-100" alt="Slide 2">
       </div>
 
       <div class="carousel-item">
-        <img src="images/projeto3.jpg" class="d-block w-100" alt="Slide 2">
+        <img src="images/projeto3.png" class="d-block w-100" alt="Slide 2">
       </div>
 
       <div class="carousel-item">
-        <img src="images/projeto4.jpg" class="d-block w-100" alt="Slide 2">
+        <img src="images/projeto4.png" class="d-block w-100" alt="Slide 2">
       </div>
 
       <div class="carousel-item">
-        <img src="images/projeto5.jpg" class="d-block w-100" alt="Slide 2">
+        <img src="images/projeto5.png" class="d-block w-100" alt="Slide 2">
       </div>
 
       <div class="carousel-item">
-        <img src="images/projeto6.jpg" class="d-block w-100" alt="Slide 2">
+        <img src="images/projeto6.png" class="d-block w-100" alt="Slide 2">
       </div>
-  
+
+      <!-- Adicione mais itens de carrossel conforme necessário -->
     </div>
     <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -155,6 +160,9 @@
     </a>
   </div>
 
+</section>
+
+
     <!-- ********** CONTATO ********** -->
 
     <section class="contato" id="contato">
@@ -163,9 +171,25 @@
       <div class="heading">
         <br>
         <br>
+        <br>
         <h2>Contato</h2>
       </div>
-
+      <div class="redes-sociais">
+        <ul data-anime="buttom" class="icons">
+          <li>
+            <a href="https://www.instagram.com/raianrdz/" class="fab fa-instagram fa-2x" target="_blank"></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/raianr/" class="fab fa-linkedin fa-2x" target="_blank"></a>
+          </li>
+          <li>
+            <a href="https://github.com/rainzrz" target="_blank" class="fab fa-github fa-2x"></a>
+          </li>
+          <li>
+            <a href="raian.guimaraes@hotmail.com" class="far fa-envelope fa-2x"></a>
+          </li>
+        </ul>
+      </div>
       <hr>
     </section>
 
@@ -173,10 +197,11 @@
       <p>Copyright© Raian Rodrigues </p>
     </footer>
 
-    <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
     
+  
 
 </body></html>
