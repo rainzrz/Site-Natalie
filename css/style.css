@@ -2,6 +2,14 @@
 
 /* Adicione esta regra CSS no seu arquivo style.css */
 
+
+
+body{
+    background-image: linear-gradient(to right top, #80c7f3, #8fd9e1, #378865, #e6eeda, #fef9f2);
+    margin: 0;
+    padding: 0;
+}
+
 #carouselExample {
     height: 50%;
     width: 80%;
@@ -10,6 +18,7 @@
   }
   
 *{
+    border-radius: 10px; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,10 +26,24 @@
     scroll-behavior: smooth;
     text-decoration: none;
 }
-
-body{
-    background-image: linear-gradient(to right top, #80c7f3, #8fd9e1, #378865, #e6eeda, #fef9f2);
+.contatos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; /* Ajuste conforme necessário */
 }
+
+.contato {
+    text-align: center;
+    margin: 0 10px; /* Ajuste o valor conforme necessário */
+}
+
+.contato img {
+    width: 50px; /* Ajuste conforme necessário */
+    height: 50px; /* Ajuste conforme necessário */
+}
+
+
 
 /*********************** HEADER *****************/
 header{
@@ -297,53 +320,60 @@ transition: ease 0.5s;
    transform: scale(1.01);
 }
 
-/*********************** CONTATO *****************/
-.contato{
+/*********************** Contato *****************/
+.contatos{
+    height: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: -100px;
 }
 
-.redes-sociais ul{
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    margin-top: 50px;
+.contatos .content{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap ;
 }
 
-.redes-sociais ul li{
-    position: relative;
-    list-style: none;
-    box-sizing: inherit;
+.card img{
+    width: 100px;
 }
 
+.card{
+    background: rgba(0, 0, 0, 0.132);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    border: none;
 
-.redes-sociais ul li a{
-    position: relative;
-    display: block;
-    margin: 0 20px;
-    color: #243148;
-    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+
     text-align: center;
+    font-weight: 600;
+    font-style: italic;
 }
 
-.redes-sociais ul li a:hover{
-    top:-2px;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition-duration: 0.2s;
+.card p {
+    color: #000000;
 }
 
-.contato p{
-    color: #243148;
-    font-family: 'TT Norms Pro';
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
+.card:hover{
+    background: rgba(102, 33, 33, 0.3);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    transition: ease 0.4s;
+}
 
-    margin: 20px 0;
+hr{
+    margin-top: 40px;
+    width: 60%;
+    border-radius: 50px;
+    border: none;
+    height: 2px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, transparent, #243148, transparent);  
 }
 
 /*********FOOTER**************/
